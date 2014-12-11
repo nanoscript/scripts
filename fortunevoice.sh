@@ -2,7 +2,7 @@
 
 A1=$(fortune -o -s) #creates a variable containing a short and offensive fortune. PLEASE REMOVE -o switch if this offends you!
 
-# here we need to remove any quotes", apostraphes', and parentheses () from our fortunes:
+# here we need to remove any harmful characters from our fortunes:
 A2=$(echo $A1 | sed 's/[![]]//g')
 A3=$(echo $A2 | sed 's/[()"-]//g')    #apparent limitations of sed requires a second pass to remove more characters
 
