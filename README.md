@@ -18,3 +18,9 @@ otherwise interfere with the function of festival. This may have unintended cons
 performance of this script.
 ****
 
+
+****
+gnoaa:
+
+another stupid script. needs some work before it's useful, but it does work. see script for more details.
+****
