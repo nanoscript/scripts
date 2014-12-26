@@ -30,7 +30,7 @@ A2=$(sed 's/[![]]//g' lastWeather.txt)
 A3=$(echo $A2 | sed 's/[()"-]//g')
 A4=$(echo $A3 | sed 's/[:;.$]//g')
 
-A6="\"$A4\""  #places quotes around our fortune so we can easily pipe it into festival:
+A6="\"$A4\""  #places quotes around our text so we can pipe it into festival:
 
 echo "(SayText $A6)" | festival &    #runs our voice command in background with festival
 
