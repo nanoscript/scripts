@@ -1,5 +1,8 @@
-fortunevoice
+SCRIPTS
 ============
+
+****
+fortunevoice:
 
 A very very stupid script to generate voice synthesized fortunes. requires fortune-mod and festival.
 
@@ -13,3 +16,5 @@ For more offensive fortunes please install fortunes-off in addition to fortune-m
 Note: this script is using a very hack-ish method to remove characters from fortunes that will 
 otherwise interfere with the function of festival. This may have unintended consequenses with 
 performance of this script.
+****
+
