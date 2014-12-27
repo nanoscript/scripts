@@ -4,7 +4,7 @@
 # This is intended to blatently mimic NOAA weather radio broadcasts using GNU software.
 #
 # Requires package "Festival" be installed and in working order with sound.
-# Also requires a working URL for your location be hardcoded into the script in the "NOAA-URL"
+# Also requires a working URL for your location be hardcoded into the script in the "NOAAURL"
 # definition below. Hint: go to noaa, find out your locale (in my case NYZ003). Then use
 # a search engine of your choice searching for "<your locale> txt". In a perfect world you
 # will be pointed to a URL like the example, which is a .txt file.
