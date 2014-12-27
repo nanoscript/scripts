@@ -8,6 +8,5 @@
 STATE=ny
 NOAAZONE=003
 
-
 NOAAURL="http://weather.noaa.gov/pub/data/forecasts/zone/$STATE/$STATE""z$NOAAZONE.txt"
 wget -q -O - $NOAAURL | less
