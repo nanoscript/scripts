@@ -14,6 +14,4 @@ NOAAURL=http://weather.noaa.gov/pub/data/forecasts/zone/ny/nyz003.txt
 # this script will leave a file named "lastWeather.txt" in whatever directory the script is called from
 wget -q -O lastWeather.txt $NOAAURL ;
 
-A=$(cat lastWeather.txt)
-
-echo $A
+cat lastWeather.txt
