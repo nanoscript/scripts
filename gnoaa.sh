@@ -32,3 +32,5 @@ echo "(SayText $A6)" | festival &    #runs our voice command in background with 
 # wishlist, work on the sed commands to make the input to festival a little (a lot?) cleaner.
 # work on the festival command to obtain a voice that works a little better for this task
 # and that more closely resembles at least one NOAA weather radio voice.
+# try espeak
+# add ability to prepend/append text to audio output
