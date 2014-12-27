@@ -5,7 +5,7 @@
 # and that you have the correct URL for your local weather report in a txt file from NOAA
 # Hint: go to noaa, find out your locale (in my case NYZ003). Then use
 # a search engine of your choice searching for "<your locale> txt". In a perfect world you
-# will be pointed to a URL like the example, which is a .txt file.
+# will be pointed to a URL like the example, which is a .txt file of my "zone forecast".
 
 
 NOAAURL=http://weather.noaa.gov/pub/data/forecasts/zone/ny/nyz003.txt
